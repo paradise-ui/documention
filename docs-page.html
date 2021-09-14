@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Paradise | Beyond your imagination</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Bootstrap 4 Template For Software Startups">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="./assets/logo.png"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+	<link rel="stylesheet" href="./assets/css/main.css">
+	<script src="./assets/js/main.js"></script>
+
+</head> 
+
+<body class="docs-page">    
+    <header class="header fixed-top">	    
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+	                    <span></span>
+	                    <span></span>
+	                    <span></span>
+	                </button>
+	                <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon me-2" height="62" style="margin-top: -10px;" src="assets/logo.png" alt="logo"><span class="logo-text">Paradise</span></span></a></div>    
+                </div><!--//docs-logo-wrapper-->
+	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+	                <div class="top-search-box d-none d-lg-flex">
+		                <!-- <form class="search-form">
+				            <input type="text" placeholder="Search the docs..."id="myInput" onkeyup="myFunction()"  name="search" class="form-control search-input">
+				            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+				        </form> -->
+	                </div>
+					<p class="d-none d-sm-none d-md-block">*This Framework is under development*</p>
+					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+						<li class="list-inline-item"><a href="https://github.com/dipanjan-dev/Paradise-framework"><i class="fab fa-github fa-fw"></i></a></li> 
+				            <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li> -->
+		            </ul><!--//social-list-->
+		            <a href="./Paradise-framework-main-V1.00.zip" download class="btn btn-primary d-none d-lg-flex">Download</a>
+	            </div><!--//docs-top-utilities-->
+            </div><!--//container-->
+        </div><!--//branding-->
+    </header><!--//header-->
+    
+    
+    <div class="docs-wrapper">
+	    <div id="docs-sidebar" class="docs-sidebar">
+		    <div class="top-search-box d-lg-none p-3">
+                <!-- <form class="search-form">
+		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+		        </form> -->
+            </div>
+		    <nav id="docs-nav" class="docs-nav navbar">
+			    <ul class="section-items list-unstyled nav flex-column pb-3">
+					
+				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Introduction</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">What is Paradise</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Installation</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Patch Note</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder me-2"><i class="fa fa-desktop"></i></span>Layout</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Box-Body</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Grid</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Center Div</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-4">Margin</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-5">Padding</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder me-2"><i class="fas fa-font"></i></span>Text</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Headings</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Paragraph</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Text alignment</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-4">Text effect</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-5">Text Color</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder me-2"><i class="fas fa-cogs"></i></span>Components</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Alerts</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Buttons</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Cards</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-4">Modal</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-5">Navigation Bar</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-6">Scroll Indicator</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span class="theme-icon-holder me-2"><i class="fas fa-tools"></i></span>Utilities</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Shadows</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Backgrounds</a></li>
+				    <!-- <li class="nav-item"><a class="nav-link scrollto" href="#item-5-3">Section Item 5.3</a></li> -->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-6"><span class="theme-icon-holder me-2"><i class="fas fa-laptop-code"></i></span>Team</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-1">Member</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-2">Join Team</a></li>
+			    </ul>
+
+		    </nav><!--//docs-nav-->
+	    </div><!--//docs-sidebar-->
+	    <div class="docs-content" id="search-mode">
+		    <div class="container">
+			    <article class="docs-article" id="section-1-1">
+				    <section class="docs-section" id="item-1-1">
+						<header class="docs-header">
+							<h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 2021-09-16</span></h1>
+							<section class="docs-intro">
+								<p>Rapidly plan and alter responsive portable first locales with heaven, the new front-end open source structure responsive matrix framework, broad prebuilt parts, and incredible JavaScript modules.</p>
+							</section><!--//docs-intro-->
+							
+							<!-- <h5>Github Code Example:</h5>
+							<p>You can <a class="theme-link" href="https://gist.github.com/"  target="_blank">embed your code snippets using Github gists</a></p> -->
+						</header>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-1-2">
+						<h2 class="section-heading">Quick Start</h2>
+						
+						<p>Looking to quickly add Bootstrap to your project? Use jsDelivr, a free open source CDN. Using a package manager or need to download the source files?.</p>
+						<div class="docs-code-block">
+						</div><!--//docs-code-block-->
+						
+					     <h3>HTML Starter Template</h3>
+						 <p>Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this:</p>
+
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded p-3">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;!-- CSS Connect --&gt;
+&lt;link rel="stylesheet" href="https://res.cloudinary.com/paradise-beta/raw/upload/v1631635219/paradise-ui/main.css"&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- Content Start Here --&gt;
+
+
+
+&lt;!-- JS Connect  --&gt;
+&lt;script src="https://res.cloudinary.com/paradise-beta/raw/upload/v1631635280/paradise-ui/main.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+						</pre>
+						</div><!--//docs-code-block-->
+						<h3> CSS </h3>
+						<p>Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS.</p>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded p-3">
+&lt;link rel="stylesheet" href="https://res.cloudinary.com/paradise-beta/raw/upload/v1631635219/paradise-ui/main.css"&gt;
+						</pre>
+						</div><!--//docs-code-block-->
+					
+					<h3> JavaScript </h3>
+					<p>Many of our components require the use of JavaScript to function. Specifically, they require our own JavaScript plugins</p>
+					<div class="docs-code-block">
+						<pre class="shadow-lg rounded p-3">
+&lt;script src="https://res.cloudinary.com/paradise-beta/raw/upload/v1631635280/paradise-ui/main.js"&gt;&lt;/script&gt;
+					</pre>
+					</div><!--//docs-code-block-->	
+					</section><!--//section-->
+					<section class="docs-section" id="item-1-3">
+						<header class="docs-header">
+							<h3 class="section-heading">Patch Note</h3>
+							<section class="docs-intro">
+								<p>Recent Releases</p>
+								<ul>
+									<li>Alerts</li>
+									<li>Navigation Bar</li>
+									<li>Scroll Indicator</li>
+								</ul>
+							</section><!--//docs-intro-->
+						</header>
+					</section><!--//section-->
+					
+			    </article>
+			    
+			    <article class="docs-article" id="section-2">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Layout</h1>
+					    <section class="docs-intro">
+						    <p>A website layout is a pattern (or framework) that defines a website's structure. It has the role of structuring the information present on a site both for the website's owner and for users.</p>
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-2-1">
+						<h3 class="section-heading">Box Body</h3>
+						<p>Box Body are a fundamental building block of Bootstrap that contain, pad, and align your content within a given device or viewport.</p>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="box-body"&gt;
+&lt;!-- Content here --&gt;
+
+&lt;/div&gt;
+						</pre>
+						</div><!--//docs-code-block-->	
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-2-2">
+						<h2 class="section-heading">Grid </h2>
+						<p>Grid is a pure HTML tag that can be used to box the layout of your blog. It works out of the box, but you can create your own look using grid-specific classes.</p>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="d-grid"&gt;
+&lt;!-- Content here --&gt;
+
+&lt;/div&gt;
+						</pre>
+						</div><!--//docs-code-block-->	
+					</section><!--//section-->
+					<section class="docs-section" id="item-2-3">
+						<h3 class="section-heading">Center Div</h3>
+						<!-- <p>Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within a given device or viewport.</p> -->
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="center-box"&gt;
+
+&lt;/div&gt;
+						</pre>
+						</div><!--//docs-code-block-->	
+					</section><!--//section-->
+					<section class="docs-section" id="item-2-4">
+						<h2 class="section-heading">Margin</h2>
+						<p>CSS Margin property is utilized to characterize the space around components. It is totally straightforward and doesn't have any foundation tone. It clears a region around the component. Top, base, left and right edge can be changed freely utilizing separate properties.</p>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="m-1"&gt;
+&lt;!-- Content here --&gt;
+
+&lt;/div&gt;
+						</pre>
+						</div><!--//docs-code-block-->	
+
+						<h2 class="section-heading mt-3">Margin Table</h2>
+						<table class="table table-bordered shadow-lg">
+							<thead>
+							  <tr>
+								<th scope="col">Margin Type</th>
+								<th scope="col">Class</th>
+								<th scope="col">Max Value</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>Margin</td>
+								<td>m-1</td>
+								<td>m-5</td>
+							  </tr>
+							  <tr>
+								<td>Margin Top </td>
+								<td>mt-1</td>
+								<td>mt-5</td>
+							  </tr>
+							  <tr>
+								<td>Margin bottom</td>
+								<td>mb-1</td>
+								<td>mb-5</td>
+							  </tr>
+							  <tr>
+								<td>Margin left</td>
+								<td>ml-1</td>
+								<td>ml-5</td>
+							  </tr>
+							  <tr>
+								<td>Margin Right</td>
+								<td>mr-1</td>
+								<td>mr-5</td>
+							  </tr>
+							  <tr>
+								<td>Margin Left-Right</td>
+								<td>mx-1</td>
+								<td>mx-5</td>
+							  </tr>
+							  <tr>
+								<td>Margin Top-bottom</td>
+								<td>my-1</td>
+								<td>my-5</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</section><!--//section-->
+					<section class="docs-section" id="item-2-5">
+						<h2 class="section-heading">padding</h2>
+						<p>A component's cushioning region is the space between its substance and its line. Note: Padding makes additional room inside a component. Interestingly, edge makes additional room around a component.</p>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="p-1"&gt;
+&lt;!-- Content here --&gt;
+
+&lt;/div&gt;
+						</pre>
+						</div><!--//docs-code-block-->	
+
+						<h2 class="section-heading mt-3">Padding Table</h2>
+						<table class="table table-bordered shadow-lg">
+							<thead>
+							  <tr>
+								<th scope="col">Padding Type</th>
+								<th scope="col">Class</th>
+								<th scope="col">Max Value</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>padding</td>
+								<td>p-1</td>
+								<td>p-5</td>
+							  </tr>
+							  <tr>
+								<td>padding Top </td>
+								<td>pt-1</td>
+								<td>pt-5</td>
+							  </tr>
+							  <tr>
+								<td>padding bottom</td>
+								<td>pb-1</td>
+								<td>pb-5</td>
+							  </tr>
+							  <tr>
+								<td>padding left</td>
+								<td>pl-1</td>
+								<td>pl-5</td>
+							  </tr>
+							  <tr>
+								<td>padding Right</td>
+								<td>pr-1</td>
+								<td>pr-5</td>
+							  </tr>
+							  <tr>
+								<td>padding Left-Right</td>
+								<td>px-1</td>
+								<td>px-5</td>
+							  </tr>
+							  <tr>
+								<td>padding Top-bottom</td>
+								<td>py-1</td>
+								<td>py-5</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</section>
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-3">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Text</h1>
+					    <section class="docs-intro">
+						    <p>CSS text designing properties is utilized to organize text and style text. Text-shading property is utilized to set the shade of the text.</p>
+						</section><!--//docs-intro-->
+				    </header>
+					<section class="docs-section" id="item-3-1">
+						<h2 class="section-heading">Headings</h2>
+				
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;span class="hs-1"&gt; Your Heading &lt;/span&gt;
+&lt;span class="hs-2"&gt; Your Heading &lt;/span&gt;
+&lt;span class="hs-3"&gt; Your Heading &lt;/span&gt;
+&lt;span class="hs-4"&gt; Your Heading &lt;/span&gt;
+&lt;span class="hs-5"&gt; Your Heading &lt;/span&gt;
+						</pre>
+						</div><!--//docs-code-block-->	
+					</section>
+
+					
+					<section class="docs-section" id="item-3-2">
+						<h2 class="section-heading">Paragraph</h2>
+				
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;span class="para-1"&gt; Your paragraph start here &lt;/span&gt;
+&lt;span class="para-2"&gt; Your paragraph start here &lt;/span&gt;
+&lt;span class="para-3"&gt; Your paragraph start here &lt;/span&gt;
+						</pre>
+						</div>
+						<!--//docs-code-block-->	
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading">Text alignment</h2>
+				
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="text-center"&gt; Text alignment center &lt;/div&gt;
+&lt;div class="text-left"&gt; Text alignment left &lt;/div&gt;
+&lt;div class="text-right"&gt; Text alignment right &lt;/div&gt;
+&lt;div class="text-justify"&gt; Text alignment justify &lt;/div&gt;
+						</pre>
+						</div>
+						<!--//docs-code-block-->
+					</section><!--//section-->
+
+					<section class="docs-section" id="item-3-4">
+						<h2 class="section-heading">Text Effects</h2>
+				
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;p class="text-mute"&gt; Text effect Muted &lt;/p&gt;
+&lt;p class="text-magic"&gt; Text effect magic &lt;/p&gt;
+&lt;p class="text-signature"&gt; Text effect signature &lt;/p&gt;
+						</pre>
+						</div>
+					</section><!--//section-->
+					<section class="docs-section" id="item-3-5">
+						<h2 class="section-heading">Text Colors</h2>
+				
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;p class="text-dark"&gt; Dark Text Color &lt;/p&gt;
+&lt;p class="text-light"&gt; Light Text Color &lt;/p&gt;
+						</pre>
+						</div>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-4">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Components</h1>
+					    <section class="docs-intro">
+						    <!-- <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p> -->
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-4-1">
+						<h2 class="section-heading">Alerts</h2>
+						<p>Alarms are accessible for any length of text, just as a discretionary close button. For appropriate styling, utilize one of the eight required context oriented classes.</p>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="alert-prime" id="alert"&gt;
+&lt;span class="alert-close-light" onclick="removealert()"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt; 
+Profile Update successfully
+&lt;/div&gt;
+
+&lt;div class="alert-success" id="alert"&gt;
+&lt;span class="alert-close-light" onclick="removealert()"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt; 
+Account Create successfully
+&lt;/div&gt;
+
+&lt;div class="alert-denger" id="alert"&gt;
+&lt;span class="alert-close-light" onclick="removealert()"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt; 
+Delete successfully
+&lt;/div&gt;
+
+&lt;div class="alert-light" id="alert"&gt;
+&lt;span class="alert-close-light" onclick="removealert()"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt; 
+Light Mode Active successfully
+&lt;/div&gt;
+
+&lt;div class="alert-dark" id="alert"&gt;
+&lt;span class="alert-close-light" onclick="removealert()"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/span&gt; 
+Dark Mode Active successfully
+&lt;/div&gt;
+
+						</pre>
+						</div>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-4-2">
+						<h2 class="section-heading">Buttons</h2>
+						<p>The button tag is utilized to make an interactive button inside HTML structure on your site page.</p>
+						<h5>Normal Button</h5>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;button class="btn style-prime"&gt; Click &lt;/button&gt;
+&lt;button class="btn style-success"&gt; Click &lt;/button&gt;
+&lt;button class="btn style-warn"&gt; Click &lt;/button&gt;
+&lt;button class="btn style-light"&gt; Click &lt;/button&gt;
+&lt;button class="btn style-dark"&gt; Click &lt;/button&gt;
+&lt;button class="btn style-charcoal"&gt; Click &lt;/button&gt;
+						</pre>
+						</div>
+
+						<h5>Outline Button</h5>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;button class="btn style-outline-prime"&gt; Click &lt;/button&gt;
+&lt;button class="btn style-outline-success"&gt; Click &lt;/button&gt;
+&lt;button class="btn style-outline-warn"&gt; Click &lt;/button&gt;
+&lt;button class="btn style-outline-light"&gt; Click &lt;/button&gt;
+&lt;button class="btn style-outline-dark"&gt; Click &lt;/button&gt;
+&lt;button class="btn style-outline-charcoal"&gt; Click &lt;/button&gt;
+						</pre>
+						</div>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-4-3">
+						<h2 class="section-heading">Cards</h2>
+				
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="card " style="width: 20rem;"&gt;
+	&lt;img src="..." class="card-img" alt="Image Load Failed. Please Try Again"&gt;
+		&lt;div class="card-body"&gt;
+			&lt;h5 class="card-title"&gt;Card Title&lt;/h5&gt;
+			&lt;p class="card-text"&gt;...&lt;/p&gt;
+		&lt;a href="#" class="card-btn"&gt;Read More&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+						</pre>
+						</div>
+					</section><!--//section-->
+					<section class="docs-section" id="item-4-4">
+						<h2 class="section-heading">Modal</h2>
+				
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;!-- Modal Button--&gt;
+&lt;button id="modal-btn" class="btn-prime "&gt;Open Modal&lt;/button&gt;
+
+&lt;!-- Modal Container --&gt;
+&lt;div id="modal-body" class="modal"&gt;
+	&lt;div class="modal-content"&gt;
+		&lt;span class="close"&gt;&lt;i class="far fa-window-close"&gt;&lt;/i&gt;&lt;/span&gt;
+		&lt;h3 class="hs-3"&gt;Title &lt;/h3&gt;
+	&lt;p class="para-1"&gt;...&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+						</pre>
+						</div>
+					</section><!--//section-->
+					<section class="docs-section" id="item-4-5">
+						<h2 class="section-heading">Navigation Bar</h2>
+				
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;nav class="bg-light shadow-sm"&gt;
+	&lt;input type="checkbox" id="check"&gt;
+		&lt;label for="check" class="mobile-menu text-dark"&gt;
+			&lt;i class="fas fa-bars"&gt;&lt;/i&gt;
+		&lt;/label&gt;
+	&lt;a href="#" class="nav-logo text-dark"&gt;Logo&lt;/a&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="" class="text-dark"&gt;Home&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="" class="text-dark"&gt;About&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="" class="text-dark"&gt;Services&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="" class="text-dark"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;
+						</pre>
+						</div>
+					</section><!--//section-->
+					<section class="docs-section" id="item-4-6">
+						<h2 class="section-heading">Scroll Indicator</h2>
+				
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="scroll-indicate"&gt;
+  &lt;div class="scroll-bar-prime" id="scroll-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="scroll-indicate"&gt;
+  &lt;div class="scroll-bar-warn" id="scroll-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="scroll-indicate"&gt;
+  &lt;div class="scroll-bar-denger" id="scroll-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="scroll-indicate"&gt;
+  &lt;div class="scroll-bar-light" id="scroll-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="scroll-indicate"&gt;
+  &lt;div class="scroll-bar-dark" id="scroll-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="scroll-indicate"&gt;
+  &lt;div class="scroll-bar-charcoal" id="scroll-bar"&gt;&lt;/div&gt;
+&lt;/div&gt;
+						</pre>
+						</div>
+						<h5>Javascript Call</h5>
+						<p>Add this javascript function before closing the  <code>&lt;Body&gt;</code>  Tag </p>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;-- Scroll Indicator--&gt;
+&lt;script&gt;scroll_indicate();&lt;/script&gt;
+						</pre>
+						</div>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    <article class="docs-article" id="section-5">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Utilities</h1>
+					    <section class="docs-intro">
+						</section><!--//docs-intro-->
+				    </header>
+				     <section class="docs-section" id="item-5-1">
+						<h2 class="section-heading">Shadows</h2>
+						<p>Add or remove shadows to elements with box-shadow utilities.</p>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="shadow"&gt; 
+	...
+&lt;/div&gt;
+
+&lt;div class="shadow-sm"&gt;
+	...
+&lt;/div&gt;
+
+&lt;div class="shadow-lg"&gt; 
+	...
+&lt;/div&gt;
+
+&lt;div class="shadow-hard"&gt;  
+	...
+&lt;/div&gt;
+						</pre>
+						</div>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-5-2">
+						<h2 class="section-heading">Backgrounds</h2>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded  p-3">
+&lt;div class="bg-light"&gt; 
+	...
+&lt;/div&gt;
+
+&lt;div class="bg-dark"&gt;
+	...
+&lt;/div&gt;
+
+&lt;div class="bg-prime"&gt; 
+	...
+&lt;/div&gt;
+
+						</pre>
+						</div>
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+			    
+		        <article class="docs-article" id="section-6">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Team</h1>
+					    <!-- <section class="docs-intro">
+						</section>//docs-intro -->
+				    </header>
+					<section class="docs-section" id="item-6-1">
+						<h2 class="section-heading">Members</h2>
+						
+						<div class="container ">
+							<div class="row">
+							  <div class="col-sm-12 col-12 col-xs-12 col-md-6 col-lg-4">
+								  <!-- card -->
+								  <a href="https://dipanjan-dev.github.io/portfolio.github.io/" target="_blank" class="text-decoration-none m-2">
+								<div class="card border-0 shadow" style="width: 18rem;">
+									<img src="./assets/images/dipanjan.png" class="card-img-top mx-auto d-block mt-3" style="height: 100px !important ; width:100px !important; text-align:center ; border-radius:50%;" alt="Dipanjan Mukherjee">
+									<div class="card-body">
+									  <h4 class="card-title text-center">Dipanjan Mukherjee</h4>
+									  <h5 class="card-desc text-center fw-normal" style="font-size: 14px">Owner and Creator</h5>
+									</div>
+								  </div>
+								</a>
+								<!-- end card -->
+							  </div>
+							  <div class="col-sm-12 col-12 col-xs-12 col-md-6 col-lg-4">
+								
+							  </div>
+							  <div class="col-sm-12 col-12 col-xs-12 col-md-6 col-lg-4">
+								
+							  </div>
+							</div>
+						  </div>
+					</section><!--//section-->
+				     <section class="docs-section" id="item-6-2">
+						<h2 class="section-heading">Join our team</h2>
+						<p class="text-center">Joining Form available soon...</p>
+					</section><!--//section-->
+			    <footer class="footer">
+				    <div class="container text-center py-5">
+				        <small class="copyright">Copyright &copy; By Paradise Framework </small>
+				        <ul class="social-list list-unstyled pt-4 mb-0">
+						    <li class="list-inline-item"><a href="https://github.com/dipanjan-dev/Paradise-framework"><i class="fab fa-github fa-fw"></i></a></li> 
+				        </ul><!--//social-list-->
+				    </div>
+			    </footer>
+		    </div> 
+	    </div>
+    </div><!--//docs-wrapper-->
+   
+       
+    <!-- Javascript -->          
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    
+    <!-- Page Specific JS -->
+    <script src="assets/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="assets/js/highlight-custom.js"></script> 
+    <script src="assets/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="assets/js/docs.js"></script> 
+
+</body>
+</html> 
+

@@ -1,0 +1,17 @@
+::-moz-selection { /* Code for Firefox */
+    color: #000000(255, 255, 255);
+    background: rgb(230, 230, 230);
+  }
+  
+  ::selection {
+    color: #000000(255, 255, 255);
+    background: rgb(230, 230, 230);
+  }
+
+.hero{
+  background-image: url('./../images/hero.jpg') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
